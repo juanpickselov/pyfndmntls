@@ -1,0 +1,7 @@
+alphabet = 'the quick red fox jumps over the lazy brown dog'.split()
+all_letters = ''.join(alphabet)
+unique_letters = set(all_letters)
+print(alphabet)
+print(all_letters)
+print(len(unique_letters))
+print(sorted(unique_letters))
