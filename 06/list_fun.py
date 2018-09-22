@@ -7,5 +7,5 @@ lotr = book_name[:]
 print(book_name[:3])
 print(book_name[3:])
 print(book_name[::-1])
-print(lotr is book_name)
-print(lotr == book_name)
+print('lotr is book_name: ' + str(lotr is book_name))
+print('lotr == book_name: ' + str(lotr == book_name))
