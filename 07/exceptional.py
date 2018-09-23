@@ -1,6 +1,12 @@
-'''A module for demonstrating exceptions.'''
+'''A Module for demonstrating exceptions.'''
+
 
 def convert(s):
     '''Convert to an integer.'''
-    x = int(s)
+    try:
+        x = int(s)
+        print('Conversion succeeded x =', x)
+    except ValueError:
+        print('Conversion failed')
+        x = -1
     return x
