@@ -1,3 +1,4 @@
+'''This is the EAFP Easier to Ask Forgiveness than Permission '''
 p = '/path/to/datafile.dat'
 
 try:
